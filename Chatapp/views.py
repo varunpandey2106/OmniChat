@@ -11,7 +11,7 @@ from datetime import timedelta, date
 
 # Create your views here.
 
-open_api_key= "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"
+open_api_key= "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"
 openai.api_key= open_api_key
 
 @login_required(login_url='signin')
