@@ -1,13 +1,14 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 # Create your models here.
-
-
-from django.db import models
-
-class User(models.Model):
-    # Other fields...
-    Username = models.CharField(max_length=100)
+class QuestionAnswer(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="questions")
+    question = models.CharField(max_length=1000)
+    answer = models.TextField()
+    created = models.DateField(auto_now_add=True)
     
-    # Other fields...
+    
+    def __str__(self):
+        return self.question
 
