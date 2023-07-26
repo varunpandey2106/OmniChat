@@ -2,7 +2,9 @@
 name = "OmniChat"
 version = "0.1.0"
 description = "My Django project description"
+authors = ["varunpandey2106 <varun.pandey2020@vitstudent.ac.in>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
 django = "^3.2"
+

@@ -88,7 +88,13 @@ DATABASES = {
         # Feel free to alter this value to suit your needs.
         default='postgresql://postgres:postgres@localhost:5432/mysite',
         conn_max_age=600
-    )
+    ),
+    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    'NAME': 'database1',                      
+    'USER': 'root',
+    'PASSWORD': '123456',
+    'HOST': 'localhost',
+    'PORT': '8000',
 }
 
 # Password validation
