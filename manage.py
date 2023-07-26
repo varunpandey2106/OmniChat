@@ -20,3 +20,10 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+commands = {
+    'runserver': 'django.core.management.commands.runserver',
+    'collectstatic': 'django.contrib.staticfiles.management.commands.collectstatic',
+    # Other management commands...
+}
