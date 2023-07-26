@@ -33,22 +33,22 @@ Asynchronous communication with the server using fetchAPI and AJAX.</p>
 
 ## Installation
 
-# Clone the repository to your local machine:
+# <h2> Clone the repository to your local machine:</h2> 
 git clone https://github.com/varunpandey2106/chat-application.git
 
-# Navigate to the project directory:
+# <h2> Navigate to the project directory: </h2>
 cd chat-application
 
-# Create a virtual environment (recommended):
+# <h2> Create a virtual environment (recommended): </h2>
 python -m venv venv
 
-# Activate the virtual environment:
-# On Windows:
+# <h2> Activate the virtual environment: </h2>
+# <h3> On Windows: </h3>
 venv\Scripts\activate
-# On macOS and Linux:
+# <h3> On macOS and Linux: </h3>
 source venv/bin/activate
 
-# Install the required dependencies:
+# <h2> Install the required dependencies: </h2>
 -pip install -r requirements.txt
 
 ## Usage
