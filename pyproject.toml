@@ -5,9 +5,9 @@ description = "A high-level Python web framework that encourages rapid developme
 authors = ["varunpandey2106 <varun.pandey2020@vitstudent.ac.in>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "3"
 django = "4.2.3"
-gunicorn = "^21.2.0"
+gunicorn = "21.2.0"
 
 
 
