@@ -1,10 +1,12 @@
 [tool.poetry]
 name = "OmniChat"
 version = "0.1.0"
-description = "My Django project description"
+description = "A high-level Python web framework that encourages rapid development and clean, pragmatic design."
 authors = ["varunpandey2106 <varun.pandey2020@vitstudent.ac.in>"]
 
 [tool.poetry.dependencies]
-python = "^3.7"
-django = "^3.2"
+python = ">=3.8"
+django = "4.2.3"
+
+
 
